@@ -28,7 +28,7 @@ factorCorreccion = '3';
 puntuacion = resultado + factorCorreccion;
 console.log(puntuacion);
 
-// * y /
+// * y / //
 
 let a = 10;
 let b = 2;

@@ -36,4 +36,4 @@ let localidad = null;
 
 // Objetos
 
-console.log(typeof mayorEdad);
+console.log(typeof mayorEdad);  //Typeof nos dice el tipo
