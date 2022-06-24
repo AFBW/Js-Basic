@@ -2,12 +2,14 @@
 
 // Clase Math
 
-// Redondeo
+// Redondeo (Positivo)
 
 let puntuacion = 2.5;
 
 let puntuacionRedondeada = Math.round(puntuacion);
 console.log(puntuacionRedondeada);
+
+// Redondeo (Negativo)
 
 puntuacion = -2.5;
 

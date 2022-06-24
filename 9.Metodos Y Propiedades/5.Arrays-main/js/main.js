@@ -1,6 +1,6 @@
 // Métodos y propiedades para Arrays
 
-let frutas = ['manzanas','naranjas','kiwis'];
+let frutas = ['manzanas', 'naranjas', 'kiwis'];
 
 // Propiedades
 
@@ -12,44 +12,44 @@ let frutaExtraida = frutas.pop(); // Extrae el último elemento del array
 console.log(frutaExtraida);
 console.log(frutas);
 
-frutas.push('albaricoques','cerezas'); // Añade uno o varios elementos al final del array
+frutas.push('albaricoques', 'cerezas'); // Añade uno o varios elementos al final del array
 console.log(frutas);
 
 frutas.shift(); // Extraer el primer elemento del array y desplazar a la izquierda el resto
 console.log(frutas);
 
-frutas.unshift('plátanos','fresas'); // Añade uno o varios elementos al inicio del array
-                                    // desplazando el resto a la derecha
+frutas.unshift('plátanos', 'fresas'); // Añade uno o varios elementos al inicio del array
+// desplazando el resto a la derecha
 console.log(frutas);
 
 
 // Método splice para eliminar o sustituir elementos
 // splice(indice, cantidad, elementos opcionales a sustituir)
 
-frutas.splice(1,2);
+frutas.splice(1, 2);
 console.log(frutas);
 
-frutas.splice(1,1);
+frutas.splice(1, 1);
 console.log(frutas);
 
-frutas.splice(1,2,'plátanos','fresas');
+frutas.splice(1, 2, 'plátanos', 'fresas');
 console.log(frutas);
 
-frutas.splice(1,1, 'peras');
+frutas.splice(1, 1, 'peras');
 console.log(frutas);
 
-frutas.splice(2,0, 'sandías', 'piñas');
+frutas.splice(2, 0, 'sandías', 'piñas');    //Añade 2 elementos,empezando por la posicion 2, sin eliminar ninguno
 console.log(frutas);
 
-frutas.sort();
+frutas.sort();           //Metodo que ordena Alfabeticamente
 console.log(frutas);
 
-frutas.reverse();
+frutas.reverse();        //Metodo que ordena en orden Descendente
 console.log(frutas);
 
 // Los métodos en JavaScript se pueden encadenar
 
-let marcaVehiculos = ['Dacia','VW','SEAT','Audi','Renault'];
+let marcaVehiculos = ['Dacia', 'VW', 'SEAT', 'Audi', 'Renault'];
 
 marcaVehiculos.sort().reverse();
 console.log(marcaVehiculos);

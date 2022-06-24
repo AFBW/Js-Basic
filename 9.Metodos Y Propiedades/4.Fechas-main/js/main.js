@@ -8,6 +8,7 @@ let fechaActual = new Date();
 console.log(fechaActual);
 
 // Establecer fechas en JavaScript
+
 // 1ª Opción pasándo argumentos: año, mes (indexado a cero), día, hora, minutos, segundos, ms
 
 let fechaNacimiento = new Date(1990, 1, 11) // 11 Febrero de 1990
